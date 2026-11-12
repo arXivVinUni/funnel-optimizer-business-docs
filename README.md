@@ -8,7 +8,8 @@ Repo này chứa toàn bộ tài liệu nghiệp vụ của đề tài **FunnelO
 
 | Thư mục | Nội dung |
 |---|---|
-| [`00-quy-dinh/`](00-quy-dinh/) | Quy định làm việc: flow Git, liên kết Trello, quy ước commit, Definition of Done |
+| [`00-quy-dinh/`](00-quy-dinh/) | Quy định làm việc: flow 2 nhánh `main`/`dev`, quy ước nhánh, quy ước commit, quy định snapshot, Definition of Done |
+| [`snapshots/`](snapshots/) | Snapshot do AI sinh cho mỗi commit |
 | [`01-nghiep-vu/`](01-nghiep-vu/) | Bài toán, định nghĩa phễu, các kênh |
 | [`02-quy-tac/`](02-quy-tac/) | Quy tắc gán nguồn đơn, ngưỡng tin cậy, quy tắc HITL |
 | [`03-kich-ban-bao-cao/`](03-kich-ban-bao-cao/) | Script và mẫu báo cáo, mẫu đề xuất hành động |
@@ -21,7 +22,8 @@ Repo này chứa toàn bộ tài liệu nghiệp vụ của đề tài **FunnelO
 
 1. Đọc [`CONTRIBUTING.md`](CONTRIBUTING.md) để biết cách đóng góp.
 2. Nhận việc trên Trello, rồi làm theo [`00-quy-dinh/flow-lam-viec.md`](00-quy-dinh/flow-lam-viec.md).
-3. Mọi thay đổi vào `main` đều đi qua Pull Request.
+3. Có hai nhánh chính: `main` (production) và `dev` (beta). Làm việc trên nhánh tách từ `dev`, mọi thay đổi vào `dev` hoặc `main` đều qua Pull Request.
+4. Mỗi commit kèm một snapshot, xem [`00-quy-dinh/quy-dinh-snapshot.md`](00-quy-dinh/quy-dinh-snapshot.md).
 
 ## Nguyên tắc nội dung
 
